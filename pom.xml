@@ -891,22 +891,22 @@
 			</plugin>
 		</plugins>
 	</reporting>
-	<!--<distributionManagement>
-    <repository>
-        <id>repo.jfrog.org</id>
-        <name>repo.jfrog.org-releases</name>
-        <url>http://amphibian.jfrog.org/artifactory/libs-snapshots-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>repo.jfrog.org</id>
-        <name>repo.jfrog.org-snapshots</name>
-        <url>http://amphibian.jfrog.org/artifactory/libs-snapshots-local</url>
-    </snapshotRepository>
-</distributionManagement>-->
 	<distributionManagement>
     <repository>
         <id>repo.jfrog.org</id>
         <name>repo.jfrog.org-releases</name>
+        <url>http://amphibian.jfrog.org/artifactory/libs-snapshots-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>repo.jfrog.org</id>
+        <name>repo.jfrog.org-snapshots</name>
+        <url>http://amphibian.jfrog.org/artifactory/libs-snapshots-local</url>
+    </snapshotRepository>
+</distributionManagement>
+<!--	<distributionManagement>
+    <repository>
+        <id>repo.jfrog.org</id>
+        <name>repo.jfrog.org-releases</name>
         <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </repository>
     <snapshotRepository>
@@ -914,5 +914,5 @@
         <name>repo.jfrog.org-snapshots</name>
         <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement>-->
 </project>
